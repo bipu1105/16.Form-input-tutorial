@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form input {
+    display: block;
+    margin: 20px 0px;
+    height: 40px;
+    width: 300px;
+    padding: 0px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    outline: none;
+}
+
+.username , .password {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: lightgray;
+    display: none;
+}
